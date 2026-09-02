@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="order-form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Forever Free Homestead</title>
+</head>
+
+<body>
+    <h1>PLACE AN ORDER</h1>
+    <p> A little something from our garden to you</p>
+
+    <form>
+        <label for="name">What is your Name?</label>
+        <input type="text" id="name" required>
+
+        <label for="phone-number">What is your phone number?</label>
+        <input type="tel" id="phone-number" required>
+
+        <label for="product">What would you like to order?</label>
+        <select id="product" required>
+            <option>Sourdough</option>
+            <option>Tallow</option>
+            <option>Essential Oil Laundry Booster Powder</option>
+        </select>
+        
+        <label for="count">Quantity</label>
+        <input type="number" id="count" min="1">
+
+        <label>Payment Method:</label>
+        <label>
+            <input type="radio" name="payment" value="Cash" required>
+            Cash
+        </label>
+        <label>
+            <input type="radio" name="payment" value="Paypal">
+            PayPal
+        </label>
+        <label>
+            <input type="radio" name="payment" value="Venmo">
+            Venmo
+        </label>
+
+        <label for="fulfillment">PickUp or Delivery?</label>
+        <label>
+            <input type="radio" name="fulfillment" value="PickUp">
+            PickUp
+        </label>
+        <label>
+            <input type="radio" name="fulfillment" value="Delivery">
+            Delivery
+        </label>
+
+    </form>
+</body>
+</html>
