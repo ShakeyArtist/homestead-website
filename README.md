@@ -54,6 +54,47 @@
     Store Front 
     clean vintage look
     color scheme: model after the label 
+##PHASE 1 - Foundation
+    Home Page
+    About us page
+    Products page
+    contact page
+    Navigation between pages
+    shared basic CSS
+    Make sure every page works independently
+
+##PHASE 2 - Client Content
+    Replace old business name with faithful sower farmers LC
+    Update homepage wording
+    update about us 
+    update product decriptions
+    update scents
+    remove baked goods, soaps, and upon order items
+    update pricing
+    update shipping information
+    update contact information
+
+##PHASE 3 - Storefront
+    design storefront layout
+    create product cards
+    add product images
+    add product names/descriptions
+    add scent selection
+    add size/quantity selection
+    add prices
+    add shipping information
+    add ordering interaction 
+    test storefront on desktop 
+    test storefront on moblie
+
+##PHASE 4 - Order System
+    Name 
+    Phone
+    Product
+    Quantity
+    Payment Method 
+    Pickup/shipping
+    notes
     
 ## COMPLETED
 
