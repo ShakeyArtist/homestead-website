@@ -45,10 +45,11 @@ body {
 }
 
 main {
-    background-color: rgba(95, 107, 58, 0.5);
-    border: 10px solid black;
-    border-radius: 6px;
-    margin: 50px 200px 50px 200px;
+    background-color: rgba(95, 107, 58, 0.75);
+    border: 4px double #6b4a2f;
+    border-radius: 8px;
+    margin: 50px 200px;
+    padding: 30px;
 }
 
 nav {
@@ -72,4 +73,9 @@ nav a {
     color: #f1e6c8;
     text-decoration: none;
     margin: 0 15px;
+}
+
+.banner {
+    width: 700px;
+
 }
