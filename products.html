@@ -19,80 +19,194 @@
     </nav>
     <main>
         <h1>Our Products</h1>
-       <section>
-            <img class="tallow" src="unscented.png" alt="Jar of homemed tallow balm">
-            <h2>Whipped Tallow Body Butter -- Unscented</h2>
-            <p>Pure, simple and naturally nourishing. Our unscented whipped Tallow contains 
-                no added essential oils, making it a great choice for those who prefer their 
-                skincare simple and fragrance-free..</p>
-            <label for="size">Choose a size:</label>
+        <div class="product-grid">
+            <section class="product-card">
+                <img class="tallow" src="unscented.png" alt="Jar of homemade tallow balm">
+                <h2>Whipped Tallow Body Butter -- Unscented</h2>
+                <p>Pure, simple and naturally nourishing. Our unscented whipped Tallow contains 
+                    no added essential oils, making it a great choice for those who prefer their 
+                    skincare simple and fragrance-free.</p>
 
-            <select id="size"></select>
-            <button>Add to Cart</button>
-        </section>
+                <label for="unscented-size">Choose Size:</label>
 
-        <section>
-            <img class="tallow" src="Lavender.png" alt="lavender whipped tallow">
-            <h2>Whipped Tallow Body butter -- Lavender</h2>
-            <p>
-                Soft, floral, and timeless. The familiar aroma of lavender creates a clean, 
-                gently floral scent that's simple, fresh and beatuiful for everyday use.
-            </p>
-            <button>Add to Cart</button>
-        </section>
+                <select id="unscented-size" name="size">
+                    <option value="2oz">2oz - $10</option>
+                    <option value="4oz">4oz - $20</option>
+                </select>
 
-        <section>
-            <img class="tallow" src="restful-dreams.png" alt="Restful dreams whipped tallow label">
-            <h3>Whipped Tallow Body butter -- Restful Dreams</h3>
-            <p>
-                Soft, Peaceful, and comforting. A gentle blend of calming herbal and floral aromas
-                 creates a cozy scent prefect for your evening routine. subtle and soothing without
-                  being overly floral.
-            </p>
-            <button>Add to cart</button>
-        </section>
+                <label for="unscented-quantity">Choose Quantity:</label>
 
-        <section>
-            <img class="tallow" src="fresh-woods.png" alt="Fresh woods whipped tallow label">
-            <h3>Whipped Tallow Body Butter -- Fresh Woods</h3>
-            <p>
-                Crisp, woodsy, and earthy. Bright sweet orange is layered with cedarwood, 
-                frankincense, and patchouli for a fresh, outdoorsy scent with warm, grounding depth. 
-                A great choice for anyone who prefers something less sweet and more woodsy.
-            </p>
-            <buton>Add to Cart</buton>
-        </section>
+                <select id="unscented-quantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
 
-        <section>
-            <img class="tallow" src="orange-vanilla.png" alt="orange vanilla tallow label">
-            <h3>Whupped Tallow Body butter -- Orange Vanilla</h3>
-            <p>
-                Our Bestseller is Bright, sweet, and comforting. Fresh citrus notes of sweet 
-                orange meet the soft warmth of vanilla for a light, cheerful scent that’s sweet 
-                without being overpowering.
-            </p>
-            <button>Add to Cart</button>
-        </section>
+                <button>Add to Cart</button>
+            </section>
 
-        <h1>Seasonal Scents</h1>
+            <section class="product-card">
+                <img class="tallow" src="Lavender.png" alt="lavender whipped tallow">
+                <h2>Whipped Tallow Body Butter -- Lavender</h2>
+                <p>
+                    Soft, floral, and timeless. The familiar aroma of lavender creates a clean, 
+                    gently floral scent that's simple, fresh and beautiful for everyday use.
+                </p>
 
-        <section>
-            <img class="tallow" src="cozy-cottage.png" alt="Cozy cottage Tallow Label">
-            <h3>Whipped Tallow Body butter -- Cozy cottage</h3>
-            <p>
-                Warm, softly floral, and spiced with a touch of sweetness. Cozy Cottage 
-                combines creamy vanilla notes with gentle florals and warm spice for a 
-                comforting scent reminiscent of slow fall days, warm kitchens, and evenings 
-                at home. A limited seasonal favorite made for the coziest time of year.
-            </p>
-            <button>Add to Cart</button>
-        </section>
+                <label for="lavender-size">Choose Size:</label>
+
+                <select id="lavender-size" name="size">
+                    <option value="2oz">2oz - $10</option>
+                    <option value="4oz">4oz - $20</option>
+                </select>
+
+                <label for="lavender-quantity">Choose Quantity:</label>
+
+                <select id="lavender-quantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+
+                <button>Add to Cart</button>
+            </section>
+
+            <section class="product-card">
+                <img class="tallow" src="restful-dreams.png" alt="Restful dreams whipped tallow label">
+                <h3>Whipped Tallow Body butter -- Restful Dreams</h3>
+                <p>
+                    Soft, Peaceful, and comforting. A gentle blend of calming herbal and floral aromas
+                    creates a cozy scent perfect for your evening routine. subtle and soothing without
+                    being overly floral.
+                </p>
+
+                <label for="restful-dreams-size">Choose Size:</label>
+
+                <select id="restful-dreams-size" name="size">
+                    <option value="2oz">2oz - $10</option>
+                    <option value="4oz">4oz - $20</option>
+                </select>
+
+                <label for="restful-dreams-quantity">Choose Quantity:</label>
+
+                <select id="restful-dreams-quantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+
+                <button>Add to cart</button>
+            </section>
+
+            <section class="product-card">
+                <img class="tallow" src="fresh-woods.png" alt="Fresh woods whipped tallow label">
+                <h3>Whipped Tallow Body Butter -- Fresh Woods</h3>
+                <p>
+                    Crisp, woodsy, and earthy. Bright sweet orange is layered with cedarwood, 
+                    frankincense, and patchouli for a fresh, outdoorsy scent with warm, grounding depth. 
+                    A great choice for anyone who prefers something less sweet and more woodsy.
+                </p>
+
+                <label for="fresh-woods-size">Choose Size:</label>
+
+                <select id="fresh-woods-size" name="size">
+                    <option value="2oz">2oz - $10</option>
+                    <option value="4oz">4oz - $20</option>
+                </select>
+
+                <label for="fresh-woods-quantity">Choose Quantity:</label>
+
+                <select id="fresh-woods-quantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+
+                <button>Add to Cart</button>
+            </section>
+
+            <section class="product-card">
+                <img class="tallow" src="orange-vanilla.png" alt="orange vanilla tallow label">
+                <h3>Whipped Tallow Body butter -- Orange Vanilla</h3>
+                <p>
+                    Our Bestseller is Bright, sweet, and comforting. Fresh citrus notes of sweet 
+                    orange meet the soft warmth of vanilla for a light, cheerful scent that’s sweet 
+                    without being overpowering.
+                </p>
+
+                <label for="orange-vanilla-size">Choose Size:</label>
+
+                <select id="orange-vanilla-size" name="size">
+                    <option value="2oz">2oz - $10</option>
+                    <option value="4oz">4oz - $20</option>
+                </select>
+
+                <label for="orange-vanilla-quantity">Choose Quantity:</label>
+
+                <select id="orange-vanilla-quantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+
+                <button>Add to Cart</button>
+            </section>
+        </div>
+
+            <h1>Seasonal Scents</h1>
+
+            <section class="product-card">
+                <img class="tallow" src="cozy-cottage.png" alt="Cozy cottage Tallow Label">
+                <h3>Whipped Tallow Body butter -- Cozy Cottage</h3>
+                <p>
+                    Warm, softly floral, and spiced with a touch of sweetness. Cozy Cottage 
+                    combines creamy vanilla notes with gentle florals and warm spice for a 
+                    comforting scent reminiscent of slow fall days, warm kitchens, and evenings 
+                    at home. A limited seasonal favorite made for the coziest time of year.
+                </p>
+
+                <label for="seasonal-size">Choose Size:</label>
+
+                <select id="seasonal-size" name="size">
+                    <option value="2oz">2oz - $10</option>
+                    <option value="4oz">4oz - $20</option>
+                </select>
+
+                <label for="seasonal-quantity">Choose Quantity:</label>
+
+                <select id="seasonal-quantity" name="quantity">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+
+                <button>Add to Cart</button>
+            </section>
+        
             
     </main>
 
     <footer>
         <img class="label" src="label.png" alt="FSF LLC Label">
-        <p>&copy; Faithful Sower Farms LLC</p>
+        <p>&copy; 2026 Faithful Sower Farms LLC</p>
     </footer>
 
 </body>

@@ -32,9 +32,9 @@ nav a {
 
 .tallow {
     width: 300px;
-    border: 10px solid black;
+    border: 10px solid #4a321f;
     border-radius: 6px;
-    margin: 20px 20px 20px 20px;
+    margin: 20px;
 
 }
 
@@ -44,7 +44,7 @@ main {
     border-radius: 8px;
     margin: 50px 200px;
     padding: 30px;
-    Text-align: center;
+    text-align: center;
 }
 
 .banner {
@@ -79,3 +79,15 @@ main {
     margin: 0 15px;
 }
 
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.product-card {
+    background-color: rgba(224, 236, 211, 0.9);
+    border: 4px double #6b4a2f;
+    border-radius: 8px;
+    padding: 20px;
+}
